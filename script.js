@@ -1,1 +1,1 @@
-document.getElementById('countButton').addEventListener('click', function() { var word = document.getElementById('wordInput').value; var letterCount = word.length; document.getElementById('result').innerText = 'Number of letters: ' + letterCount; });
+document.getElementById('countButton').addEventListener('click', function() { var word = document.getElementById('wordInput').value; var letterCount = word.length; var product = letterCount * 5; document.getElementById('result').innerText = 'Product of letters with 5: ' + product; });
