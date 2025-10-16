@@ -1,0 +1,1 @@
+document.getElementById('countButton').addEventListener('click', function() { var word = document.getElementById('wordInput').value; var letterCount = word.length; document.getElementById('result').innerText = 'Number of letters: ' + letterCount; });
